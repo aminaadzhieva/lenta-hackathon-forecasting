@@ -9,11 +9,11 @@
 - **Сергей Бредис**
 
 ## Содержание репозитория:
-- [lenta-hackathon-demand-forecasting.ipynb](https://github.com/aminaadzhieva/lenta-hackathon-demand-forecasting/blob/develop/lenta-hackathon-demand-forecasting%20(8).ipynb) - EDA, обучение модели, предсказание 
-- [submission.csv](https://github.com/aminaadzhieva/lenta-hackathon-demand-forecasting/blob/develop/sales_submission.csv) - файл с предсказаниями
+- [lenta.ipynb](https://github.com/aminaadzhieva/lenta-hackathon-forecasting/blob/main/lenta.ipynb) - EDA, обучение модели, предсказание 
+- [submission.csv](https://github.com/aminaadzhieva/lenta-hackathon-forecasting/blob/main/sales_submission.csv) - файл с предсказаниями
 - `lenta`:
-  - `ml` - [скрипт предсказания](https://github.com/aminaadzhieva/lenta-hackathon-demand-forecasting/blob/develop/lenta/ml/model.py), скрипт переобучения модели, [обученная модель](https://github.com/aminaadzhieva/lenta-hackathon-demand-forecasting/blob/develop/lenta/ml/lgbm_model.pkl)
-  - `backend` - [скрипт для запуска модели](https://github.com/aminaadzhieva/lenta-hackathon-demand-forecasting/blob/develop/lenta/backend/app.py)
+  - `ml` - [скрипт предсказания](https://github.com/aminaadzhieva/lenta-hackathon-forecasting/blob/main/lenta/ml/model.py), [скрипт переобучения модели](https://github.com/aminaadzhieva/lenta-hackathon-forecasting/blob/main/lenta/ml/retraining.py), [обученная модель](https://github.com/aminaadzhieva/lenta-hackathon-forecasting/blob/main/lenta/ml/lgbm_model.pkl)
+  - `backend` - [скрипт для запуска модели](https://github.com/aminaadzhieva/lenta-hackathon-forecasting/blob/main/lenta/backend/app.py)
 
 ## Описание решения:
 - Выбрана модель градиентного бустинга LightGBM
