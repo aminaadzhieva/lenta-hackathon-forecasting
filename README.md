@@ -9,7 +9,7 @@
 - **Сергей Бредис**
 
 ## Содержание репозитория:
-- [lenta.ipynb](https://github.com/aminaadzhieva/lenta-hackathon-forecasting/blob/main/lenta.ipynb) - EDA, обучение модели, предсказание 
+- [lenta.ipynb](https://github.com/aminaadzhieva/lenta-hackathon-forecasting/blob/main/lenta.ipynb) - EDA, feature engineering, обучение модели, предсказание 
 - [submission.csv](https://github.com/aminaadzhieva/lenta-hackathon-forecasting/blob/main/sales_submission.csv) - файл с предсказаниями
 - `lenta`:
   - `ml` - [скрипт предсказания](https://github.com/aminaadzhieva/lenta-hackathon-forecasting/blob/main/lenta/ml/model.py), [скрипт переобучения модели](https://github.com/aminaadzhieva/lenta-hackathon-forecasting/blob/main/lenta/ml/retraining.py), [обученная модель](https://github.com/aminaadzhieva/lenta-hackathon-forecasting/blob/main/lenta/ml/lgbm_model.pkl)
