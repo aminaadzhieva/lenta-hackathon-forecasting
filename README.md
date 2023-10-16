@@ -10,7 +10,7 @@
 
 ## Содержание репозитория
 - [lenta-hackathon-demand-forecasting.ipynb](https://github.com/aminaadzhieva/lenta-hackathon-demand-forecasting/blob/develop/lenta-hackathon-demand-forecasting%20(8).ipynb) - EDA, обучение модели, предсказание 
-- [submission.csv](https://github.com/aminaadzhieva/lenta-hackathon-demand-forecasting/blob/develop/sales_submission.csv)
+- [submission.csv](https://github.com/aminaadzhieva/lenta-hackathon-demand-forecasting/blob/develop/sales_submission.csv) - файл с предсказаниями
 - `lenta`:
   - `ml` - [скрипт предсказания](https://github.com/aminaadzhieva/lenta-hackathon-demand-forecasting/blob/develop/lenta/ml/model.py), скрипт переобучения модели, [обученная модель](https://github.com/aminaadzhieva/lenta-hackathon-demand-forecasting/blob/develop/lenta/ml/lgbm_model.pkl)
   - `backend` - [скрипт для запуска модели](https://github.com/aminaadzhieva/lenta-hackathon-demand-forecasting/blob/develop/lenta/backend/app.py)
